@@ -9,6 +9,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
+      { text: '运营', link: '/operation/' },
       { text: '案例', link: '/examples/' },
       { text: '马上创建', link: 'https://ohmy.xin/' },
     ],
@@ -28,6 +29,20 @@ module.exports = {
           '/guide/manage-app',
         ]
       },
+      {
+        title: '案例',
+        path: '/examples/',
+        collapsable: true,
+        sidebarDepth: 2,
+        children: []
+      },
+      {
+        title: '运营',
+        path: '/operation/',
+        collapsable: true,
+        sidebarDepth: 2,
+        children: []
+      }
     ],
     sidebarDepth: 2,
     lastUpdated: '上次更新'
