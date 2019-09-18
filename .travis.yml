@@ -6,6 +6,7 @@ branches:
     - master
 script:
   - npm run docs:build
+  - cd docs/.vuepress/dist
   - echo 'docs.ohmy.xin' > CNAME
 deploy:
   provider: pages
