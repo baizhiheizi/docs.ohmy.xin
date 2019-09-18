@@ -1,3 +1,8 @@
+# modules
 node_modules
-.vuepress
+
+# build
+.vuepress/dist
+
+# misc
 .DS_Store
