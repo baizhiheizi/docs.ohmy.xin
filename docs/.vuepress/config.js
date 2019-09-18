@@ -30,15 +30,15 @@ module.exports = {
         ]
       },
       {
-        title: '案例',
-        path: '/examples/',
+        title: '运营',
+        path: '/operation/',
         collapsable: true,
         sidebarDepth: 2,
         children: []
       },
       {
-        title: '运营',
-        path: '/operation/',
+        title: '案例',
+        path: '/examples/',
         collapsable: true,
         sidebarDepth: 2,
         children: []
