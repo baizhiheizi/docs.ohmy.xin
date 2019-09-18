@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/docs.ohmy.xin/',
+  base: '/',
   title: 'OhMy.xin 使用手册',
   description: '助你轻松创建 Mixin 机器人',
   head: [
