@@ -8,10 +8,28 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '开始', link: '/getting-started/' },
-      { text: '运营', link: '/how-to-use/' },
+      { text: '指南', link: '/guide/' },
       { text: '案例', link: '/examples/' },
-      { text: '马上创建', link: 'https://ohmy.com/' },
-    ]
+      { text: '马上创建', link: 'https://ohmy.xin/' },
+    ],
+    sidebar: [
+      {
+        title: '指南',
+        path: '/guide/',
+        collapsable: true,
+        sidebarDepth: 2,
+        children: [
+          '/guide/',
+          '/guide/register-ohmy',
+          '/guide/register-mixin-bot',
+          '/guide/generate-keys',
+          '/guide/deposit-app',
+          '/guide/config-mixin-bot',
+          '/guide/manage-app',
+        ]
+      },
+    ],
+    sidebarDepth: 2,
+    lastUpdated: '上次更新'
   }
 }
