@@ -13,6 +13,12 @@ module.exports = {
       { text: '案例', link: '/examples/' },
       { text: '马上创建', link: 'https://ohmy.xin/' },
     ],
+    repo: 'an-lee/docs.ohmy.xin',
+    repoLabel: '查看源码',
+    // 假如文档不是放在仓库的根目录下：
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面',
     sidebar: [
       {
         title: '指南',
