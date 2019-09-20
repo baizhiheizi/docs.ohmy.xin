@@ -13,3 +13,7 @@ features:
 - title: 无限扩展
   details: 基于 Mixin Network 和 Mixin Messenger，会不断迭代出更多创新实用的功能。
 ---
+
+::: tip
+使用过程中有任何问题或建议，可以免费加入 [OhMy官方圈](https://ohmy.xin/circles/997103) ([在 Mixin 中打开](https://mixin.one/users/93c804ce-9817-444f-9039-096d8f422c11)) 或者加入 [OhMy用户群](https://mixin.one/codes/4513f810-aab2-4376-8eb0-7cc15dd705f2) 进行咨询。
+:::
