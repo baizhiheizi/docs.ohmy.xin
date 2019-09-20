@@ -1,14 +1,12 @@
 # 配置应用
 
-在 OhMy.xin 中创建成功之后，这个时候在 Mixin Messenger 里打开你的机器人，会发现打开的是你在 
-
-步骤 [2.1](#2.1 注册机器人)  中填的 `home uri` 。所以，要把它改过来。
+在 OhMy.xin 中创建成功之后，这个时候在 Mixin Messenger 里打开你的机器人，会发现打开的是你在步骤 [注册机器人](/guide/register-mixin-bot)  中填的 `home uri` 。所以，要把它改过来。
 
 打开 [MIxin 开发者网站的应用列表](https://developers.mixin.one/dashboard)，找到你的机器人，点击 `client_id`，进入编辑状态。
 
 ![image-20190829114447484](../assets/images/image-20190829114447484.png)
 
-把  `home uir` 和 `OAuth redirect uri` 修改成 OhMy.xin 分配的地址。如果你找不到，可以到 OhMy.xin 的管理后台，首页就能看到。
+把  `home uri` 和 `OAuth redirect uri` 修改成 OhMy.xin 分配的地址。如果你找不到，可以到 OhMy.xin 的管理后台，首页就能看到。
 
 ![image-20190829115200736](../assets/images/image-20190829115200736.png)
 
