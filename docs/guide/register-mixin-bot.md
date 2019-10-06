@@ -6,14 +6,14 @@
 
 同样建议在 PC 端打开以上网站，Mixin 扫码授权之后，就可以进入了。点击底部的 `Creat New App` 按钮开始创建。
 
-![image-20190829104445879](../assets/images/image-20190829104445879.png)
+![Jietu20191006-115026](../assets/images/Jietu20191006-115026.jpg)
 
 按照提示，填入各项就行。
 
-![image-20190829105156012](../assets/images/image-20190829105156012.png)
+![image-20190829105156012](../assets/images/Jietu20191006-114722.jpg)
+
+![Jietu20191006-114904](../assets/images/Jietu20191006-114904.jpg)
 
 ::: tip 提示
 如果提交的时候提示 `Invalid data submitted`，多数是因为名称或者简介的字数不符合要求，重新检查一下。
 :::
-
-其中 `home uri` 是打开机器人出现的主页，`OAuth redirect uri` 是机器人授权成功之后跳转的地址，注册时可以先随便填一个网址（比如 `https://ohmy.xin`）。**要记得在完成 [托管应用](/guide/deposit-app) 后，需要再将 `home uri` 和 `OAuth redirect uri` 修改为 OhMy.xin 为你的机器人分配的地址**。

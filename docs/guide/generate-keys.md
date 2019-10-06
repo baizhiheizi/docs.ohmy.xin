@@ -2,15 +2,23 @@
 
 创建成功之后，回到应用列表，生成机器人的 `secret` 、`session`、pin 码 和私钥等信息。
 
-点击 `Click to generate a new secret` 和 `Click to generate a new session` ，可以生成机器人的私钥等信息。
+点击 `Click to generate a new secret`，会得到一个格式为 `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` 的字符串，这就是你机器人的 `client_id`。
 
-![image-20190829110532385](../assets/images/image-20190829110532385.png)
+点击 `Click to generate a new session` ，会下载一个名为 `keystore.json` 的文件。下载后，用记事本等编辑器打开，会得到你机器人的其他密钥信息，包括
 
-各个信息对应的名称如下图，其中 `user id` 对于机器人来说，也叫 `client id`。
+- `pin`
+- `client_id`
+- `session_id`
+- `pin_token`
+- `private_key`
 
-![mixin-bot-config-example](https://camo.githubusercontent.com/27bfb02019c79e9fb88c0cb0438be4d186ac5739/68747470733a2f2f646576656c6f706572732e6d6978696e2e6f6e652f6170692f696d616765732f72656769737465722d6170702e706e67)
+![Jietu20191006-120703](../assets/images/Jietu20191006-120703.jpg)
 
-这些私钥信息请**务必妥善保管**，有了这些信息，就相当于得到了这个机器人的管理权。
+拥有以上所有的密钥信息，就得到了这个机器人的所有权限。因此，`keystore.json` 文件请善保管，如果怀疑泄露或者丢失，请立即重新生成，旧的密钥信息就会马上失效。
+
+![Jietu20191006-115727](../assets/images/Jietu20191006-115727.jpg)
+
+有了这些信息，就相当于得到了这个机器人的管理权。
 
 其中 **PIN 码是最最重要的**，是提取机器人中资产的关键密码。没有 PIN 码，即使有其他的私钥信息，也是没办法提取资产的。
 
