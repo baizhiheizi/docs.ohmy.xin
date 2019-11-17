@@ -2,7 +2,7 @@
 
 创建成功之后，回到应用列表，生成机器人的 `secret` 、`session`、pin 码 和私钥等信息。
 
-点击 `Click to generate a new secret`，会得到一个格式为 `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` 的字符串，这就是你机器人的 `client_id`。
+点击 `Click to generate a new secret`，会得到一个格式为 `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` 的字符串，这就是你机器人的 `client_secret`。
 
 点击 `Click to generate a new session` ，会下载一个名为 `keystore.json` 的文件。下载后，用记事本等编辑器打开，会得到你机器人的其他密钥信息，包括
 
