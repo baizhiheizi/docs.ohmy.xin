@@ -1,13 +1,13 @@
 {
   "title": {
-    "message": "OhMy.xin",
+    "message": "我信",
     "description": "The title in the navbar"
   },
   "item.label.Tutorial": {
-    "message": "Tutorial",
+    "message": "教程",
     "description": "Navbar item with label Tutorial"
   },
-  "item.label.Blog": {
+  "item.label.博客": {
     "message": "Blog",
     "description": "Navbar item with label Blog"
   },
